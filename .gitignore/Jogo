@@ -1,0 +1,17 @@
+# Design_Patterns_Template_Method
+
+public abstract class Jogo {
+		final void treinoJogo(){
+				preparoFisico();
+				treinoEscalacao();
+				treinoTatico();
+		}
+		
+		abstract void preparoFisico();
+		abstract void TreinoEscalacao();
+		
+		final void treinoEscalacao(){
+			System.out.println("Treino de Escalação");
+		}
+
+}
