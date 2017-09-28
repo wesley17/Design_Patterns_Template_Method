@@ -1,0 +1,8 @@
+public class JogoMeioTemporada extends Jogo {
+		void preparoFisico(){
+			System.out.println("Preparo Fisico")
+		}
+		void treinoEscalacao(){
+			System.out.println("Jogo treino com equipe");
+		}
+}
